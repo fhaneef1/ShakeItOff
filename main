@@ -1,0 +1,116 @@
+#Snippet of "Shake It Off" by Taylor Swift coded using Sonic Pi
+
+#Setting instrument and beats per minute
+use_synth :piano
+use_bpm 148
+
+#I stay up too late
+play :D4
+sleep 0.5
+play :B3
+sleep 0.5
+play :A3
+sleep 0.5
+play :G3
+sleep 0.5
+play :B3, release: 2
+
+
+play :A1
+sleep 0.5
+play :A2
+sleep 0.5
+play :A2
+sleep 1
+play :A2
+sleep 1.60
+
+play :A2
+sleep 0.5
+play :A2
+sleep 1
+play :A2
+sleep 0.5
+
+#Got nothing in my brain
+play :D3
+play :D4
+sleep 0.5
+play :B3
+sleep 0.5
+play :A3
+sleep 0.5
+play :G3
+sleep 0.5
+play :B3, release: 2
+
+play :C2
+sleep 0.5
+play :C3
+sleep 0.5
+play :C3
+sleep 0.5
+play :C3
+sleep 1
+
+play :C3
+sleep 1.5
+play :C3
+sleep 0.5
+play :C3
+sleep 1
+
+#That's what people say
+play :C3
+sleep 1
+play :D4
+sleep 0.5
+play :B3
+sleep 0.5
+play :A3
+sleep 0.5
+play :G3
+sleep 0.5
+play :B3
+play :G1
+sleep 0.5
+play :A3
+play :G2
+sleep 0.5
+play :G3
+play :G2
+sleep 1
+play :G2, release: 2
+sleep 1
+
+#Mmm mmm
+play :E3, release: 10
+sleep 1
+play :D3, release: 10
+
+#That's what people say
+sleep 1.5
+play :D4
+sleep 0.5
+play :B3
+sleep 0.5
+play :A3
+sleep 0.5
+play :G3
+sleep 0.5
+play :B3
+play :G1
+sleep 0.5
+play :A3
+play :G2
+sleep 0.5
+play :G3
+play :G2
+sleep 1
+play :G2, release: 2
+sleep 1
+
+#Mmm mm
+play :E3, release: 10
+sleep 1
+play :D3, release: 10
